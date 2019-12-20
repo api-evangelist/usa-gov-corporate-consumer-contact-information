@@ -1,0 +1,45 @@
+{
+    "name": "USA.Gov Corporate Consumer Contact Information",
+    "description": "<p>We make the Corporate Consumer Contact listing found in the Consumer Action Handbook (PDF) available via a REST API. The API programmatically returns all of the information contained in the directory, or you can query the API to return just a subset of the available information.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/usa-gov-logo.png",
+    "tags": [
+        "federal government   gsa",
+        "general data",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/usa-gov-corporate-consumer-contact-information\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "USA.Gov Corporate Consumer Contact Information API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/usa-gov-logo.png",
+            "humanURL": "https:\/\/github.com\/usagov\/Corporate-Consumer-Contact-API-Documentation",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/usa-gov-corporate-consumer-contact-information-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/usa-gov-corporate-consumer-contact-information-api.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Terms Of Service",
+            "url": "https:\/\/www.usa.gov\/developer-terms-of-service"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/github.com\/usagov\/Corporate-Consumer-Contact-API-Documentation"
+        }
+    ]
+}
