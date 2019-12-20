@@ -1,0 +1,88 @@
+{
+    "id": "958c08aad9fa5faff87cd9a725847424",
+    "name": "USA.Gov Corporate Consumer Contact Information API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "cada8067936badc990c61f7924ad4679",
+            "name": "Get Contacts",
+            "url": "httpswww.usa.govapi\/USAGovAPI\/\/contacts.{format}\/contacts",
+            "description": "Contacts is a general purpose call that, by default, will return all of the corporate directory records. However, you can pass parameters into the contacts call that allow you to filter the records returned by the API in powerful ways.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "query_filter",
+                    "description": "Return only corporate directory records that meet the criteria you enter into this parameter. In general, the filter takes the form of {field_name}::{value}[|{field_name}::{value}]*. Additionally, for names, you can perform substring searches by surrounding {value} with asterisks.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "result_filter",
+                    "description": "Return only the fields listed here (separated by |) as opposed to every field in each directory record. For example, use a result_filter of name|phone to return only names and phone numbers.  See the data model above for a list of field names that you can specify be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sort",
+                    "description": "Allows you to specify the sort order of the returned agency directory records. For example, use a sort of name to sort the results by the agency???s name. You can also cause the sort to go in descending order by adding a - before the field name, such as -name.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "You can limit the results returned by the API by including an X-Range HTTP header in your GET request, with a value of items=x to y, where x is the lower limit and y is the upper limit of the results to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "958c08aad9fa5faff87cd9a725847424",
+            "rawModeData": ""
+        },
+        {
+            "id": "0df0617e5240b34b50a3685bbc548398",
+            "name": "Get Contact",
+            "url": "httpswww.usa.govapi\/USAGovAPI\/\/contacts.{format}\/contacts\/{id}",
+            "description": "The Contact call will let you access an individual corporation's information by including its unique identifier in the call.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "958c08aad9fa5faff87cd9a725847424",
+            "rawModeData": ""
+        }
+    ]
+}
