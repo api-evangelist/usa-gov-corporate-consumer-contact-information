@@ -1,5 +1,5 @@
 {
-    "id": "958c08aad9fa5faff87cd9a725847424",
+    "id": "c000783b3e9e65fe6642f493fbb2c0bf",
     "name": "USA.Gov Corporate Consumer Contact Information API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "cada8067936badc990c61f7924ad4679",
+            "id": "7ad0ccfabb116faea9fc16e8b35477d3",
             "name": "Get Contacts",
             "url": "httpswww.usa.govapi\/USAGovAPI\/\/contacts.{format}\/contacts",
             "description": "Contacts is a general purpose call that, by default, will return all of the corporate directory records. However, you can pass parameters into the contacts call that allow you to filter the records returned by the API in powerful ways.",
@@ -58,11 +58,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "958c08aad9fa5faff87cd9a725847424",
+            "collectionId": "c000783b3e9e65fe6642f493fbb2c0bf",
             "rawModeData": ""
         },
         {
-            "id": "0df0617e5240b34b50a3685bbc548398",
+            "id": "4edcabcf33a4f275bb351556af30f835",
             "name": "Get Contact",
             "url": "httpswww.usa.govapi\/USAGovAPI\/\/contacts.{format}\/contacts\/{id}",
             "description": "The Contact call will let you access an individual corporation's information by including its unique identifier in the call.",
@@ -81,7 +81,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "958c08aad9fa5faff87cd9a725847424",
+            "collectionId": "c000783b3e9e65fe6642f493fbb2c0bf",
             "rawModeData": ""
         }
     ]
