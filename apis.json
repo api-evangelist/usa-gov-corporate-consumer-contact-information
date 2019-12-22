@@ -7,8 +7,8 @@
         "general data",
         "have api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/usa-gov-corporate-consumer-contact-information\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -22,17 +22,21 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/usa-gov-corporate-consumer-contact-information-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/usa-gov-corporate-consumer-contact-information-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/usa-gov-corporate-consumer-contact-information-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/usa-gov-corporate-consumer-contact-information\/master\/usa-gov-corporate-consumer-contact-information-api-openapi.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Terms Of Service",
             "url": "https:\/\/www.usa.gov\/developer-terms-of-service"
